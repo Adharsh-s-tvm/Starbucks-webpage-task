@@ -1,0 +1,810 @@
+@font-face {
+    font-family: "SoDo Sans SemiBold";
+    src: url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot");
+    src: url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.svg#SoDo Sans SemiBold")format("svg");
+}
+
+@font-face {
+    font-family: "SoDoSans";
+    src: url(fonts/SoDoSans-Regular.ttf );
+}
+
+body{
+    margin: 0px;
+}
+.full-page{
+    height: 4750px;
+    width: 100%;
+    background: white;
+}
+.header{
+    width: 100%;
+    height: 61px;
+    background: white;
+    padding-top: 25px;
+}
+#header-line{
+    color: rgb(224, 217, 217);
+    opacity: 0.3;
+    height: 2px;
+    background: rgb(224, 217, 217);
+}
+.left-header{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.logo-image{
+    margin-left: 45px;
+    height: 50px;
+    width: 50px;
+    float: left;
+    cursor: pointer;
+}
+.menu-text{
+    float: left;
+    margin-left:42px;
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif ,solid;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: small;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.menu-text:hover{
+    color: #00754a ;
+}
+.rewards-text{
+    float: left;
+    margin-left:25px;
+    font-family:   "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: small;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.rewards-text:hover{
+    color: #00754a;
+}
+.gift-text{
+    float: left;
+    margin-left:25px;
+    font-family:  "SoDoSans", Helvetica , Helvetica, Arial, sans-serif ,solid;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: small;
+    margin-top: 15px;
+    text-transform: uppercase; 
+    text-decoration: none;   
+    color: black;
+}
+.gift-text:HOVER{
+    color: #00754a;
+}
+.right-header{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 15px;
+}
+.loc-img{
+    height: 21px;
+    width: 21px;
+    margin-left: 50%;
+    float: left;
+}
+.find-text{
+    text-decoration: none;
+    float: left;
+    color: black;
+    margin-top: 2px;
+    font-family:  Black, sans-serif;
+    font-weight: 600;
+    font-size: small;
+    letter-spacing: .5px;
+    margin-left: 10px;
+}
+.find-text:hover{
+    color: #00754a;
+}
+.sign-button{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: 1.5px black solid;
+    width: 80px;
+    height: 32px;
+    margin-left: 55px;
+    margin-top: -5px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+.sign-button:hover{
+    background-color: #e3e9e7;
+}
+.join-button1{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 1.5px black solid;
+    width: 95px;
+    height: 33px;
+    margin-left: 13px;
+    margin-top: -4px;
+    font-weight: 700;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;   
+}
+.join-button1:hover{
+    opacity: .7;
+}
+.box-one{
+    width: 95%;
+    height: 635px;
+    margin: 2%;
+    background-color: white;
+    margin-left: 45px;
+    float: left;
+}
+.left-box1{
+    width: 50%;
+    height: 100%;
+    background: #ecbb4d;
+    float: left;
+}
+.image-one{
+    width: 100%;
+    height: 100%;
+}
+.right-box1{
+    width: 50%;
+    height: 100%;
+    background: #ecbb4d;
+    float: left;    
+}
+.box1-text{
+    font-family:  "SoDoSans", Helvetica , Helvetica, Arial, sans-serif ,bold;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 180px;
+    color: #1e3932;
+    opacity: inherit;
+    margin-left: 125px;
+    font-style: normal;
+}
+.box1-para1{
+    float: left;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 110px;
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    color: #1e3932;
+    font-weight: 400;
+}
+.box1-para2{
+    float: left;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 133px;
+    font-family:  "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    color: #1e3932;
+}
+.box1-para3{
+    float: left;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 200px;
+    font-family:   "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    color: #1e3932;
+}
+.order-button1{
+    border-radius: 20px;
+    background-color: #ecbb4d;
+    color: #1e3932;
+    border: 1.5px black solid;
+    width: 115px;
+    height: 35px;
+    margin-left: -215px;
+    margin-top: 45px;
+    font-weight: 700;
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    float: left;    
+    letter-spacing: 0px;
+    font-size: 17px ;
+    cursor: pointer;
+}
+.order-button1:hover{
+    background-color:  #d3a331;
+}
+.box-two{
+    background-color: #1e3932;
+    width: 95%;
+    height: 429px;
+    margin-left: 45px;
+    float: left;
+}
+.left-box2{
+    width: 50%;
+    height: 100%;
+    background: #1e3932;
+    float: left;
+}
+.box2-text{
+    color: white;
+    font-family:  "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    font-size: 145%;
+    letter-spacing: 0px;
+    margin-left: 190px;
+    margin-top: 120px;
+}
+.box2-para1{
+    font-family:  "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 118%;
+    letter-spacing: 0px;
+    margin-left: 109px;
+    margin-top: -23px;
+    font-stretch: extra-expanded;
+}
+.box2-para2{
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 118%;
+    letter-spacing: 0px;
+    margin-left: 230px;
+    margin-top: -7px;
+    font-stretch: extra-expanded;
+}
+.watch-button{
+    border-radius: 20px;
+    background-color: white;
+    color: #2f866f;
+    border: 1.5px #1e3932;
+    width: 121px;
+    height: 34px;
+    margin-left: 305px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 112.433%;
+    font-family: 'Franklin Gothic medium','Arial Narrow', Arial, sans-serif ;
+    letter-spacing: 0px;
+    padding-bottom: 2px;
+    font-stretch: extra-expanded;
+    cursor: pointer;
+}
+.watch-button:hover{
+    background-color: #b3c1bd;
+}
+.box-three{
+    width: 95%;
+    height: 635px;
+    margin: 2%;
+    background-color: #fa745c;
+    margin-left: 45px;
+    float: left;
+}
+.left-box3{
+    width: 50%;
+    height: 100%;
+    background: #fa745c;
+    float: left;
+}
+.right-box3{
+    width: 50%;
+    height: 100%;
+    background: #fa745c;
+    float: left;
+}
+.box3-text1{
+    color: #1e3932;;
+    font-family:  "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    font-size: 340%;
+    letter-spacing: 0px;
+    margin-left: 179px;
+    margin-top: 170px;
+}
+.box3-text2{
+    color: #1e3932;;
+    font-family:  "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    font-size: 323%;
+    letter-spacing: 3x;
+    margin-left: 295px;
+    margin-top: -40px;
+    font-stretch: extra-expanded;
+}
+.box3-para1{
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    font-size: 150%;
+    letter-spacing: 0px;
+    color: #1e3932;
+    margin-left: 110px;
+    margin-top: -10px;
+}
+.box3-para2{
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    color: #1e3932;
+    font-size: 150%;
+    letter-spacing: 0px;
+    margin-left: 185px;
+    margin-top: -18px;
+}
+.order-button2{
+    border-radius: 20px;
+    background-color: #fa745c;
+    color: #1e3932;
+    border: 1.5px black solid;
+    width: 117px;
+    height: 35px;
+    margin-left: 309px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;    
+    letter-spacing: .4px;
+    font-size: 17px ;
+    cursor: pointer;
+}
+.order-button2:hover{
+    background-color: #e34e33;
+}
+.box-four{
+    background-color: #036642;
+    width: 95%;
+    height: 429px;
+    margin-left: 45px;
+    float: left;
+}
+.left-box4{
+    width: 50%;
+    height: 100%;
+    background: #036642;
+    float: left;
+}
+.right-box4{
+    width: 50%;
+    height: 100%;
+    background: #036642;
+    float: left;
+}
+.box4-text{
+    color: white;
+    font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 156%;
+    letter-spacing: .7px;
+    margin-left: 266px;
+    margin-top: 101px;
+}
+.box4-para1{
+    font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 118%;
+    letter-spacing: .69px;
+    margin-left: 109px;
+    margin-top: -24px;
+    font-stretch: extra-expanded;
+}
+.box4-para2{
+    font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 118%;
+    letter-spacing: 1px;
+    margin-left: 105px;
+    margin-top: -5px;
+    font-stretch: extra-expanded;
+}
+.box4-para3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 122%;
+    letter-spacing: 1px;
+    margin-left: 257px;
+    margin-top: -8px;
+}
+.join-button2{
+    border-radius: 20px;
+    background-color: #036642;
+    color: white;
+    border: 1.5px white solid;
+    width: 102.5px;
+    height: 35.8px;
+    margin-left:314px;
+    margin-top: 21px;
+    font-weight: 700;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    cursor: pointer;
+}
+.join-button2:hover{
+    background-color: #045336;
+}
+.box-five{
+    width: 95%;
+    height: 636px;
+    margin: 2%;
+    background-color: #d9e89a;
+    margin-left: 45px;
+    float: left;
+}
+.left-box5{
+    width: 50%;
+    height: 100%;
+    background: #d9e89a;
+    float: left;
+}
+.right-box5{
+    width: 50%;
+    height: 100%;
+    background: #d9e89a;
+    float: left;
+}
+.box5-text1{
+    color: #1e3932;;
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    font-size: 316%;
+    letter-spacing: 1px;
+    margin-left: 159px;
+    margin-top: 188px;
+    font-weight: bolder;
+
+}
+.box5-para1{
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    color: #1e3932;
+    font-size: 150%;
+    letter-spacing: 0px;
+    margin-left: 131px;
+    margin-top: -10px;
+}
+.box5-para2{
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    color: #1e3932;
+    font-size: 150%;
+    letter-spacing: 0px;
+    margin-left: 117px;
+    margin-top: -18px;
+}
+.box5-para3{
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    color: #1e3932;
+    font-size: 150%;
+    letter-spacing: 0px;
+    margin-left: 236px;
+    margin-top: -18px;
+}
+.order-button3{
+    border-radius: 20px;
+    background-color: #d9e89a;
+    color: #1e3932;
+    border: 1.5px black solid;
+    width: 117px;
+    height: 36px;
+    margin-left: 309px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: "SoDoSans", Helvetica , Helvetica, Arial, sans-serif;
+    float: left;    
+    letter-spacing: -.8px;
+    font-size: 17px ;
+    cursor: pointer;
+}
+.order-button3:hover{
+    background-color:  #c5d77a;;
+}
+.box-six{
+    background-color: #f2f0eb;
+    width: 95%;
+    height: 430px;
+    margin-left: 45px;
+    margin-top: 2px;
+    float: left;
+}
+.left-box6{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background: #f2f0eb;
+}
+.right-box6{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.box6-text{
+    color: #1e3932;
+    font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 156%;
+    letter-spacing: .6px;
+    margin-left: 167px;
+    margin-top: 101px;
+}
+.box6-para1{
+    font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1e3932;
+    font-size: 118%;
+    letter-spacing: 1.48px;
+    margin-left: 120px;
+    margin-top: -24px;
+    font-stretch: extra-expanded;
+}
+.box6-para2{
+    font-family: 'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1e3932;
+    font-size: 119%;
+    letter-spacing: .9px;
+    margin-left: 140px;
+    margin-top: -6px;
+    font-stretch: extra-expanded;
+}
+.box6-para3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1e3932;
+    font-size: 122%;
+    letter-spacing: .87px;
+    margin-left: 313px;
+    margin-top: -7px;
+}
+.learn-button{
+    border-radius: 20px;
+    background-color: #1e3932;
+    color: white;
+    border: 1.5px #1e3932;
+    width: 122.5px;
+    height: 35.8px;
+    margin-left:304px;
+    margin-top: 21px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 103.9%;
+    letter-spacing: .3px;
+    cursor: pointer;
+}
+.learn-button:hover{
+    background-color: #2c5b4d;;
+}
+.after-box{
+    width: 95%;
+    height: 326px;
+    margin: 2%;
+    background-color: white;
+    margin-left: 45px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    padding-top: 29px;
+}
+.after-para1{
+    margin: 7px;
+    font-size: 95%;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0px;
+    margin-left: 47px;
+}
+.after-para2{
+    margin: 7px;
+    font-size: 94%;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9px;
+    letter-spacing: .2px;
+    margin-top: 8px;
+}
+.after-para3{
+    margin: 7px;
+    font-size: 94%;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-left: 19px;
+    margin-top: 10px;
+
+}.after-para4{
+    margin: 7px;
+    font-size: 94%;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    margin-left: 12px;
+    letter-spacing: .2px;
+}
+.after-para5{
+    margin: 7px;
+    font-size: 95%;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    margin-left: 70px;
+    letter-spacing: 0px;
+}
+.after-para6{
+    margin: 7px;
+    font-size: 92.5%;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-top:106px;
+    margin-left: 8px;
+    letter-spacing: .2px;
+}
+.after-para7{
+    margin: 7px;
+    font-size: 92.5%;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+    margin-left: 259px;
+    letter-spacing: .3px;
+}
+#middle-line{
+    color: rgb(224, 217, 217);
+    opacity: 0.3;
+    height: .93px;
+    background: rgb(177, 173, 173);
+    width: 105%;
+    margin-top: 35px;
+    margin-left: -445px;
+}
+.table-bigbox{
+    height: 410px;
+    width: 73%;
+    margin: 2%;
+    background: #b3c1bd;
+    float: left;
+    margin-top: -33px;
+    color:  #717775;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 107%;
+}
+.list-box1{
+    width: 20%;
+    height: 100%;
+    background: #ffffff;
+    float: left;
+}
+.list-box2{
+    width: 20%;
+    height: 100%;
+    background: #ffffff;
+    float: left;
+}
+.list-box3{
+    width: 20%;
+    height: 100%;
+    background: #ffffff;
+    float: left;
+}
+.list-box4{
+    width: 20%;
+    height: 100%;
+    background: #ffffff;
+    float: left;
+}
+.list-box5{
+    width: 20%;
+    height: 100%;
+    background: #ffffff;
+    float: left;
+}
+#footer-line{
+    color: rgb(224, 217, 217);
+    opacity: 0.3;
+    height: .93px;
+    background: rgb(177, 173, 173);
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+ul.no-bullets{
+    list-style-type: none;
+    margin-left: 15px;
+    padding: 0;
+}
+.list{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.list:hover{
+    color: rgb(25, 24, 24);
+}
+.list-heading{
+    font-weight: 500;
+    font-size: 120%;
+    color: black;
+}
+.icon-box{
+    background: rgb(255, 255, 255);
+    height: 87px;
+    width: 20%;
+    margin-left: 2%;
+}
+.footer-box{
+    background: rgb(255, 255, 255);
+    height: 392px;
+    width: 30%;
+    margin-left: 2%;
+}
+.spotify{
+    height: 33px;
+    width: 33px;
+    float: left;
+    margin-top:  29px;
+    margin-left: 15px;
+}
+.fb{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-top:  25px;
+    margin-left: 12px;
+}
+.pinterest{
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin-top:  29px;
+    margin-left: 13px;
+}
+.insta{
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin-top:  29px;
+    margin-left: 16px;
+}
+.youtube{
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin-top:  29px;
+    margin-left: 16px;
+}
+.x{
+    height: 41px;
+    width: 55px;
+    float: left;
+    margin-top:  25px;
+    margin-left: 6px;
+}
+.list2{
+    margin-bottom: 25px;
+    font-size: 106%;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+.list2:hover{
+    text-decoration: underline;
+}
+.list2-last-list{
+    font-size: 106%;
+    letter-spacing: .5px;
+}
+.last-text{
+    margin-left: 15px;
+    margin-top: 37px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #717775;
+}
