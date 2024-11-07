@@ -101,6 +101,10 @@ body{
     width: 21px;
     margin-left: 50%;
     float: left;
+    cursor: pointer;
+}
+.loc-img:hover{
+    color: #00754a;
 }
 .find-text{
     text-decoration: none;
@@ -131,6 +135,7 @@ body{
 }
 .sign-button:hover{
     background-color: #e3e9e7;
+    cursor: pointer;
 }
 .join-button1{
     border-radius: 20px;
@@ -146,6 +151,7 @@ body{
 }
 .join-button1:hover{
     opacity: .7;
+    cursor: pointer;
 }
 .box-one{
     width: 95%;
@@ -800,6 +806,10 @@ ul.no-bullets{
 .list2-last-list{
     font-size: 106%;
     letter-spacing: .5px;
+    cursor: pointer;
+}
+.list2-last-list:hover{
+    text-decoration: underline;
 }
 .last-text{
     margin-left: 15px;
